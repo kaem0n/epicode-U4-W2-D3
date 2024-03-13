@@ -6,15 +6,15 @@ import java.time.LocalDate;
 import java.util.List;
 
 public class Order {
-    private final long id;
+    private final String id;
     private OrderStatus status;
     private final LocalDate orderDate;
     private final LocalDate deliveryDate;
     private final List<Product> products;
     private final Customer customer;
 
-    public Order(long id, LocalDate orderDate, LocalDate deliveryDate, List<Product> products, Customer customer) {
-        this.id = id;
+    public Order(LocalDate orderDate, LocalDate deliveryDate, List<Product> products, Customer customer) {
+        this.id = Integer.toHexString(hashCode());
         this.orderDate = orderDate;
         this.deliveryDate = deliveryDate;
         this.products = products;
