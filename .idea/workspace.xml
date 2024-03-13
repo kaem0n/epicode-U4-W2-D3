@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f48f080-ccf4-41ad-8ac6-335342c63630" name="Changes" comment="finished ex1">
+    <list default="true" id="4f48f080-ccf4-41ad-8ac6-335342c63630" name="Changes" comment="finished ex3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Order.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/entities/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/enums/OrderStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/enums/OrderStatus.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,12 +81,21 @@
       <option name="project" value="LOCAL" />
       <updated>1710338902909</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="finished ex3">
+      <option name="closed" value="true" />
+      <created>1710340400465</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710340400465</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="project start" />
     <MESSAGE value="finished ex1" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished ex1" />
+    <MESSAGE value="finished ex3" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished ex3" />
   </component>
 </project>

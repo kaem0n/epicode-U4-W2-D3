@@ -43,10 +43,10 @@ public class Product {
                 el.setPrice(el.getPrice() * discount);
                 System.out.println("- " + el);
             });
-        }
+        } else System.err.println("Error: out of bounds discount value");
     }
 
-    private final String formatPrice() {
+    private String formatPrice() {
         DecimalFormat df = new DecimalFormat("0.00");
         df.setRoundingMode(RoundingMode.DOWN);
         return df.format(this.price);
