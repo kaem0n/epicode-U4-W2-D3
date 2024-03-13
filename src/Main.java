@@ -19,9 +19,17 @@ public class Main {
         products.add(new Product("Omogeneizzato Plasmon (orata)", ProductCategory.BABY, 2.69));
 
         System.out.println();
-        System.out.println("===== ESERCIZIO 1 =====");
+        System.out.println("===== EXERCISE 1 =====");
         System.out.println();
-        System.out.println("Lista di prodotti della categoria \"books\" che costano meno di 50€:");
         Product.printCheapProducts(products, ProductCategory.BOOKS);
+        System.out.println();
+        System.out.println("===== EXERCISE 2");
+        System.out.println();
+
+        System.out.println();
+        System.out.println("===== EXERCISE 3 =====");
+        System.out.println();
+        Product.printDiscountedProducts(products, ProductCategory.GAMES, 0.10);
     }
+
 }
