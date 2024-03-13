@@ -1,2 +1,5 @@
-package enums;public enum OrderStatus {
+package enums;
+
+public enum OrderStatus {
+    RECEIVED, SHIPPED, COMPLETED
 }
